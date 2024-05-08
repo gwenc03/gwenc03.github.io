@@ -62,9 +62,27 @@ footer, header, hgroup, menu, nav, section {
 	/*margin-bottom: 5%;*/
 }
 
+/*#kraken {*/
+/*	margin-left: 50%;*/
+/*	margin-top: 20%;*/
+/*}*/
+
 #kraken {
 	margin-left: 50%;
 	margin-top: 20%;
+}
+
+@media screen and (max-width: 1180px) {
+	#kraken {
+		margin-left: 15%; /* Adjusted margin-left for smaller screens */
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#kraken {
+		margin-left: 5%; /* Further adjusted margin-left for even smaller screens */
+	}
 }
 
 .excompanies {
